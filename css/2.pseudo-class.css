@@ -1,0 +1,37 @@
+/* Pseudo-class : */
+/* mendefinisikan keadaan khusus pada suatu element. */
+h1:hover {
+  background: black;
+  color: greenyellow;
+}
+
+p:nth-child(2) {
+  background-color: turquoise;
+}
+
+/* Pseudo-element */
+/* memberikan style pada bagian tertentu dari suatu element */
+a::before {
+  content: "Before -> ";
+}
+a::after {
+  content: "<-After ";
+}
+
+p::selection {
+  color: red;
+  background-color: yellow;
+}
+h3::selection {
+  color: white;
+  background-color: black;
+}
+
+p::first-letter {
+  font-size: 50px;
+  color: red;
+}
+
+p::first-line {
+  color: fuchsia;
+}

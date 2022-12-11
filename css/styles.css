@@ -1,0 +1,13 @@
+/* External CSS */
+body{
+    background-color: pink;
+}
+
+h1{
+    color: blue;
+    font-weight: bold;
+}
+
+p{
+    color: red;
+}

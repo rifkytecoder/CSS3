@@ -1,0 +1,49 @@
+/* Memberi style semua element */
+/* * {
+    background-color: aqua;
+} */
+
+/* div * {
+  background-color: aqua;
+} */
+
+/* Style semua element tertentu */
+p {
+  font-size: 20;
+}
+
+/* Style dengan nama id/# tertentu */
+#firstParagraph {
+  border: solid yellow;
+}
+
+#secondParagraph {
+  border: solid red;
+}
+
+/* Style di child element */
+/* #container p */
+#container > p {
+  background-color: yellow;
+}
+
+/* Style dengan nama class/. tertentu */
+.highlight {
+  background-color: black;
+  color: yellow;
+}
+
+/* Style element dengan attribute/[] tertentu */
+a[href] {
+  background-color: greenyellow;
+}
+
+a[download="file.txt"] {
+  background-color: turquoise;
+}
+
+/* Style lebih dari satu element sekaligus */
+h1,
+h2 {
+  color: red;
+}
